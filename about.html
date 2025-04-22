@@ -4,28 +4,53 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="about.css">
+  <script src="scriptfile.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>About</title>
 </head>
 
 <body>
+  <header class="header">
+    <div class="page-title">
+      <!--Change h1-->
+      <h1>A Little About Me</h1>
+    </div>
+    <!--Fix it-Navbar not styling consistently--->
+    <nav class="navbar">
   <nav>
-    <a href="home">Home</a>
-    <a href="about">About</a>
-    <a href="portfolio">Portfolio</a>
-    <a href="contact">Contact</a>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
   </nav>
+</header>
 
   <main>
+    <section class="about-section">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hi! I'm Jill — a creative web developer from New Orleans with a passion for building clean, accessible, and delightful user experiences. I love taking on projects that blend design and development, whether it's building responsive layouts, crafting reusable components, or animating interfaces with flair.</p>
+  
+        <p>With a background in design and a sharp eye for detail, I bring thoughtful energy to everything I build. Outside of code, you'll find me sketching, exploring farmers markets, or sipping cold brew while diving into new frontend frameworks.</p>
+  
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, React, Git, Figma, Accessibility, Responsive Design</p>
+      </div>
+  
+      <div class="about-image">
+        <img src="avatar.png" alt="Portrait of Jill" />
+      </div>
+    </section>
+  
    
   </main>
 
   <footer>
   <!--Social Media Icons from Font Awesome 4 Icons-->
-  <a href="#facebook" class="fa fa-facebook"></a>
-  <a href="#linkedin" class="fa fa-linkedin"></a>
-  <a href="#dribble" class="fa fa-dribbble"></a>
-
+  <a href="facebook" class="fa fa-facebook"></a>
+  <a href="linkedin" class="fa fa-linkedin"></a>
+  <a href="dribble" class="fa fa-dribbble"></a>
+  <a href="github"><img src="github-icon.svg" alt="GitHub"></a>
+  
   </footer>
 </body>
 </html>
